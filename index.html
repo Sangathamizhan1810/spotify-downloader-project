@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="page-1" class="page-1">
+        <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm" class="glass">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+    <section id="page-2" class="page-hide">
+        <div class="container">
+            <h1>Spotify Song Downloader</h1>
+            <input type="text" id="spotifyUrl" placeholder="Paste Spotify song URL here">
+            <button id="downloadBtn">Get Download Link</button>
+            <div id="result"></div>
+        </div>
+        <div class="note">
+            <h1>Note : Since this is free subscription from RapidAPI only certain sample links are working and only 10 request per day</h1>
+            <p style="font-family:Bree serif;">A sample link , to be copy & paste in the above bar :<br> </p>
+            <div class="ready-link">
+                <span>https://open.spotify.com/track/7jT3LcNj4XPYOlbNkPWNhU</span>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

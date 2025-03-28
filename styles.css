@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.page-1 {
+    background: url('https://images2.alphacoders.com/109/1093974.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1DB954;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #169c44;
+    cursor: pointer;
+}
+
+input {
+    width: 90%;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px #1DB954,
+        0 0 10px #1DB954,
+        0 0 15px #1DB954,
+        0 0 20px rgba(29, 185, 84, 0.8);
+    ;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(0px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container:hover {
+    backdrop-filter: blur(15px);
+    transition: backdrop-filter 0.5s ease-in-out;
+}
+
+.container:hover h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.page-hide {
+    display: none
+}
+
+.page-display {
+    display: flex;
+}
+
+#page-2 {
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+#spotifyUrl {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    overflow-x: auto;
+    margin-top: auto;
+}
+
+.note {
+    padding: 16px;
+    text-align: center;
+    width: 50%;
+    overflow-x: auto;
+}
+
+.note:hover {
+    color: white;
+    background-color: #169c44;
+    transition: ease-in-out(1);
+}
+
+.ready-link {
+    overflow-x: hidden;
+}
+
+.ready-link:hover {
+    text-decoration: underline;
+    overflow-x: auto;
+}
