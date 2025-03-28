@@ -1,6 +1,7 @@
 Run the code , using Live server in the Visual Studio Code . 
 
-In case facing any difficulties in running the project , just simply use the link (sangathamizhan7.ccbp.tech) in the browser .
+In case facing any difficulties in running the project , 
+just simply use the link (sangathamizhan7.ccbp.tech) in the browser to see the full output.
 
 description about the code :
 **User Authentication:** Simple login form with email and password.  
